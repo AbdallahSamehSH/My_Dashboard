@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div>
+                <h1 class="sidebar-h1">
+                    <img class="dashboard-icon" src="icons/Dashboard.svg" alt="Dashboard Icon">
+                    Dashboard
+                </h1>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <img class="sidebar-icon" src="icons/home.svg" alt="Home Icon">
+                        <span>Home</span>
+                    </li>
+                    <li>
+                        <img class="sidebar-icon" src="icons/Profile.svg" alt="Profile Icon">
+                        <span>Profile</span>
+                    </li>
+                    <li>
+                        <img class="sidebar-icon" src="icons/Messages.svg" alt="Messages Icon">
+                        <span>Messages</span>
+                    </li>
+                    <li>
+                        <img class="sidebar-icon" src="icons/History.svg" alt="History Icon">
+                        <span>History</span>
+                    </li>
+                    <li>
+                        <img class="sidebar-icon" src="icons/Tasks.svg" alt="Tasks Icon">
+                        <span>Tasks</span>
+                    </li>
+                    <li class="for-margin">
+                        <img class="sidebar-icon" src="icons/Communities.svg" alt="Communities Icon">
+                        <span>Communities</span>
+                    </li>
+                    <li>
+                        <img class="sidebar-icon" src="icons/Settings.svg" alt="Settings Icon">
+                        <span>Settings</span>
+                    </li>
+                    <li>
+                        <img class="sidebar-icon" src="icons/Support.svg" alt="Support Icon">
+                        <span>Support</span>
+                    </li>
+                    <li>
+                        <img class="sidebar-icon" src="icons/Privacy.svg" alt="Privacy Icon">
+                        <span>Privacy</span>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="header-top">
+                <div class="search-box">
+                    <img class="header-icon" src="icons/search.svg" alt="Search Icon">
+                    <input type="text">
+                </div>
+                <div class="user-profile">
+                    <img class="header-icon" src="icons/notification.svg" alt="Notification Icon">
+                    <img class="small-profile-image" src="Avatars/person3.jpg" alt="My Profile">
+                    <span class="small-profile-text">Sara Ibrahim</span>
+                </div>
+            </div>
+
+            <div class="header-bottom">
+                <div class="user-welcome">
+                    <img class="large-profile-image" src="Avatars/person3.jpg" alt="My Profile">
+                    <div>
+                        <span class="small-text-span">Hi there,</span>
+                        <span class="large-text-span">Sara</span>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Left Side: Projects -->
+            <section class="projects">
+                <h2>Your Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3>Super Cool Project</h3>
+                        <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                        <div class="card-icons">
+                            <img src="/icons/star-plus-outline.svg" alt="Star">
+                            <img src="/icons/eye-plus-outline.svg" alt="Watch">
+                            <img src="/icons/source-fork.svg" alt="Fork">
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Less Cool Project</h3>
+                        <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
+                        <div class="card-icons">
+                            <img src="/icons/star-plus-outline.svg" alt="Star">
+                            <img src="/icons/eye-plus-outline.svg" alt="Watch">
+                            <img src="/icons/source-fork.svg" alt="Fork">
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Impossible App</h3>
+                        <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+                        <div class="card-icons">
+                            <img src="/icons/star-plus-outline.svg" alt="Star">
+                            <img src="/icons/eye-plus-outline.svg" alt="Watch">
+                            <img src="/icons/source-fork.svg" alt="Fork">
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Easy Peasy App</h3>
+                        <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+                        <div class="card-icons">
+                            <img src="/icons/star-plus-outline.svg" alt="Star">
+                            <img src="/icons/eye-plus-outline.svg" alt="Watch">
+                            <img src="/icons/source-fork.svg" alt="Fork">
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Ad Blocker</h3>
+                        <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
+                        <div class="card-icons">
+                           <img src="/icons/star-plus-outline.svg" alt="Star">
+                            <img src="/icons/eye-plus-outline.svg" alt="Watch">
+                            <img src="/icons/source-fork.svg" alt="Fork">
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Money Maker</h3>
+                        <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
+                        <div class="card-icons">
+                            <img src="/icons/star-plus-outline.svg" alt="Star">
+                            <img src="/icons/eye-plus-outline.svg" alt="Watch">
+                            <img src="/icons/source-fork.svg" alt="Fork">
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Right Side: Panel -->
+            <aside class="right-panel">
+                <h2>Announcements</h2>
+                <section class="announcements-card">
+                    <div class="announcement-item">
+                        <h4>Site Maintenance</h4>
+                        <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+                    </div>
+                    <hr>
+                    <div class="announcement-item">
+                        <h4>Community Share Day</h4>
+                        <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
+                    </div>
+                    <hr>
+                    <div class="announcement-item">
+                        <h4>Updated Privacy Policy</h4>
+                        <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+                    </div>
+                </section>
+
+                <h2>Trending</h2>
+                <section class="trending-card">
+                    <div class="trending-user">
+                        <img class="small-profile-image" src="Avatars/person2.jpg" alt="User">
+                        <div>
+                            <span class="user-handle">@tegan</span>
+                            <span class="user-tagline">World Peace Builder</span>
+                        </div>
+                    </div>
+                    <div class="trending-user">
+                        <img class="small-profile-image" src="Avatars/person3.jpg" alt="User">
+                        <div>
+                            <span class="user-handle">@Sara</span>
+                            <span class="user-tagline">Super Cool Project</span>
+                        </div>
+                    </div>
+                    <div class="trending-user">
+                        <img class="small-profile-image" src="Avatars/person3.jpg" alt="User">
+                        <div>
+                            <span class="user-handle">@kendall</span>
+                            <span class="user-tagline">Life Changing App</span>
+                        </div>
+                    </div>
+                    <div class="trending-user">
+                        <img class="small-profile-image" src="Avatars/person4.jpg" alt="User">
+                        <div>
+                            <span class="user-handle">@alex</span>
+                            <span class="user-tagline">No Traffic Maker</span>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+        </main>
+    </div>
+</body>
+
+</html>
